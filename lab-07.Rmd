@@ -51,5 +51,11 @@ ggplot(data = replica_long,
 
 ### Exercise 3
 
-What's clear in this visualization that isn't in the original is that the masked counties have substantially more cases 
+What's clear in this visualization that isn't in the original is that the masked counties have a substantially higher cases incidence rate than no mask counties -- very frequently by a factor of more than double.  This is obscured by the axes in the original plot, which presumably cover different ranges in order to make it seem as though counties requiring masks have less COVID.
+
+### Exercise 4
+
+Although the axes for mask and no mask counties cover different ranges, they do track differences the same way; the difference between two tick marks is 2 cases per 100K population for both. Therefore, while masked counties have an overall higher case incidence rate, we can also see that this rate decreases over the range of dates given. This is in contrast to case incidence rate for no mask counties, which stays more or less constant over the given date range. Therefore, while masked areas had more COVID over these dates than non-masked areas, it looks from this data like masks (or something else going on in the masked areas) are working to drive that rate down over time.
+
+This pretty much lines up with what I know about COVID. My impression is that larger cities were the areas most likely to impose mask mandates, and are also the cities where COVID would be expected to spread faster in the absence of masking.  As such,  it makes sense that the case rate would start higher in those areas, and that they would start to decline once mask mandates went into effect. No magic here; just some hidden variables.
 
